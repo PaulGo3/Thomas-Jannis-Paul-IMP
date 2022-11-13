@@ -12,8 +12,17 @@ for r in o:
     print (r)
 c.close()
 
+import csv
+
+with open('csv-test.csv', newline='') as f:
+    reader = csv.reader(f)
+    data = list(reader)
+
+print(data)
+
 import numpy as np
 
 arr = (10,20,30)
 print("1-D array :", arr)
 print("Standard Deviation of arr is ", np.std(arr))
+
