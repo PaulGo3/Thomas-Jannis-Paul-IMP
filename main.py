@@ -14,6 +14,6 @@ c.close()
 
 import numpy as np
 
-arr = [10, 20, 30]
-print("1-D array :", r)
-print("Standard Deviation of arr is ", np.std(r))
+arr = (10,20,30)
+print("1-D array :", arr)
+print("Standard Deviation of arr is ", np.std(arr))
