@@ -1,19 +1,18 @@
 print("_______________________________________________________________________________")
 import csv
-print("Program to demonstrate csv.reader() function:")
+print("Program to demonstrate csv.writer() function")
 print("\n")
-c = open('csv-test.csv','r')
-print("The csv file is opened for reading:")
-print("\n")
-
-o = csv.reader(c)
-print("The contents of the above file is as follows:")
-for r in o:
-    print (r)
+p_details =[('course','fees','place'),('Python',22000,'Pune'),('Android',11000,'Assam'),('Java',30000,'Delhi')]
+c = open('csv-test.csv','w')
+print("File is opened for writing:")
+o = csv.writer(c)
+for p in p_details:
+    o.writerow(p)
 c.close()
 
 import numpy as np
 
 arr = [10, 20, 30]
-print("1-D array :", r)
-print("Standard Deviation of arr is ", np.std(r))
+print("1-D array :", arr)
+print("Standard Deviation of arr is ", np.std(arr))
+
