@@ -4,6 +4,7 @@ import numpy
 import numpy as np
 import pandas as pd
 import openpyxl
+import pyflake
 #---
 y = 1
 
@@ -21,7 +22,7 @@ def std():
   st_dev_minus_plus = np.std(list)
   st_dev = (abs(st_dev_minus_plus))
 
-  print("Die Standartabweichung der Gewichtung ist", st_dev)
+  print("Die Standartabweichung ist: ", st_dev)
 
 
 print("_______________________________________________________________________________ ")
@@ -227,3 +228,4 @@ print("Frage 99: \n  \n Antwort:")
 print("_______________________________________________________________________________ ")
 print("Frage 100: \n  \n Antwort:")
 print("_______________________________________________________________________________ ")
+x = input('.')

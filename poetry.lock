@@ -61,6 +61,14 @@ pytz = ">=2020.1"
 test = ["hypothesis (>=5.5.3)", "pytest (>=6.0)", "pytest-xdist (>=1.31)"]
 
 [[package]]
+name = "pyflakes"
+version = "2.5.0"
+description = "passive checker of Python programs"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "python-dateutil"
 version = "2.8.2"
 description = "Extensions to the standard Python datetime module"
@@ -90,7 +98,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "1166de2745d10e7f6b40a800003025652cab3bb585e624ce016dec56fe4d9400"
+content-hash = "0b16258bd93d9af31e35bf2f70cd645fdea52a74f27b2836fcb9a88031be4531"
 
 [metadata.files]
 et-xmlfile = []
@@ -98,6 +106,7 @@ mpu = []
 numpy = []
 openpyxl = []
 pandas = []
+pyflakes = []
 python-dateutil = []
 pytz = []
 six = []
