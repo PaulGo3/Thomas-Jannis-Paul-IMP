@@ -1,4 +1,12 @@
 [[package]]
+name = "et-xmlfile"
+version = "1.1.0"
+description = "An implementation of lxml.xmlfile for the standard library"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "mpu"
 version = "0.23.1"
 description = "Martins Python Utilities"
@@ -21,6 +29,17 @@ description = "NumPy is the fundamental package for array computing with Python.
 category = "main"
 optional = false
 python-versions = ">=3.8"
+
+[[package]]
+name = "openpyxl"
+version = "3.0.10"
+description = "A Python library to read/write Excel 2010 xlsx/xlsm files"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+et-xmlfile = "*"
 
 [[package]]
 name = "pandas"
@@ -71,11 +90,13 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "2415c71c902666c4b000ecc2031eacfe5795cc3987ccd45cb0de23a485a65333"
+content-hash = "1166de2745d10e7f6b40a800003025652cab3bb585e624ce016dec56fe4d9400"
 
 [metadata.files]
+et-xmlfile = []
 mpu = []
 numpy = []
+openpyxl = []
 pandas = []
 python-dateutil = []
 pytz = []

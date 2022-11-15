@@ -1,24 +1,31 @@
 #https://github.com/MarcIMP08/Luegendetektor/blob/master/main.py
-
 from csv import excel
-import panda as pd
-excel-datei = pd.read_excel("Fragen.xlsx")
+import numpy
+import numpy as np
+import pandas as pd
+import openpyxl
+#---
+y = 1
+
+
+excel_datei = pd.read_excel("files/Fragen.xlsx")
 
 def excel():
-  print(excel-datei)
-  print(excel-datei.iloc[1, 2])
+  print(excel_datei)
+  print(excel_datei.iloc[1, 2])
+
+def std():
+
+  list = excel_datei.iloc[:, 9]
+
+  st_dev_minus_plus = np.std(list)
+  st_dev = (abs(st_dev_minus_plus))
+
+  print("Die Standartabweichung der Gewichtung ist", st_dev)
+
 
 print("_______________________________________________________________________________ ")
-
-import csv
-with open('csv-test.csv') as f:
-    reader = csv.reader(f)
-    data = list(reader)
-print(data)
-
-import numpy as np
 print("Standartabweichung ist: ", np.std(y))
-
 print("_______________________________________________________________________________ ")
 print("Frage 1: \n Wo warst du um die Uhrzeit? \n Antwort:")
 print("_______________________________________________________________________________ ")
