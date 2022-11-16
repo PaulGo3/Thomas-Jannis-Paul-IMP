@@ -1,28 +1,36 @@
 #https://github.com/MarcIMP08/Luegendetektor/blob/master/main.py
+import os
+import sys
+import time
 from csv import excel
 import numpy
 import numpy as np
 import pandas as pd
-import openpyxl
-import pyflake
-#---
+
+
+
+
+
+
 y = 1
 
 
 excel_datei = pd.read_excel("files/Fragen.xlsx")
 
-def excel():
-  print(excel_datei)
-  print(excel_datei.iloc[1, 2])
+
 
 def std():
+  x = excel_datei.iloc[20, 19]
 
-  list = excel_datei.iloc[:, 9]
-
-  st_dev_minus_plus = np.std(list)
+  st_dev_minus_plus = np.std(x)
   st_dev = (abs(st_dev_minus_plus))
+  print(st_dev)
+  print(x)
 
-  print("Die Standartabweichung ist: ", st_dev)
+print("Die Standartabweichung ist: ", y)
+
+
+print("Frage:", excel_datei.iloc[	44,2	], "\nAntwort:", excel_datei.iloc[	44,6	])
 
 
 print("_______________________________________________________________________________ ")
@@ -228,4 +236,4 @@ print("Frage 99: \n  \n Antwort:")
 print("_______________________________________________________________________________ ")
 print("Frage 100: \n  \n Antwort:")
 print("_______________________________________________________________________________ ")
-x = input('.')
+
