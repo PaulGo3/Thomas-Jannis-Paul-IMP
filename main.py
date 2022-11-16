@@ -34,7 +34,7 @@ print("Frage:", excel_datei.iloc[	10,17	], "\nAntwort:", excel_datei.iloc[	44,6	
 
 
 print("_______________________________________________________________________________ ")
-print("Standartabweichung ist: ", np.std(y))
+print("Standartabweichung ist: ", np.std(excel_datei.iloc[:,17]))
 print("_______________________________________________________________________________ ")
 print("Frage 1: \n Wo warst du um die Uhrzeit? \n Antwort:")
 print("_______________________________________________________________________________ ")
