@@ -30,7 +30,7 @@ def std():
 print("Die Standartabweichung ist: ", y)
 
 
-print("Frage:", excel_datei.iloc[	44,2	], "\nAntwort:", excel_datei.iloc[	44,6	])
+print("Frage:", excel_datei.iloc[	10,17	], "\nAntwort:", excel_datei.iloc[	44,6	])
 
 
 print("_______________________________________________________________________________ ")
