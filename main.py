@@ -7,31 +7,7 @@ import numpy
 import numpy as np
 import pandas as pd
 
-
-
-
-
-
-y = 1
-
-
 excel_datei = pd.read_excel("files/Fragen.xlsx")
-
-
-
-def std():
-  x = excel_datei.iloc[20, 19]
-
-  st_dev_minus_plus = np.std(x)
-  st_dev = (abs(st_dev_minus_plus))
-  print(st_dev)
-  print(x)
-
-print("Die Standartabweichung ist: ", y)
-
-
-print("Frage:", excel_datei.iloc[	10,17	], "\nAntwort:", excel_datei.iloc[	44,6	])
-
 
 print("_______________________________________________________________________________ ")
 print("Standartabweichung ist: ", np.std(excel_datei.iloc[:,17]))
