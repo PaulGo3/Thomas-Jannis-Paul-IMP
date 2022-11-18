@@ -1,16 +1,13 @@
 #https://github.com/MarcIMP08/Luegendetektor/blob/master/main.py
-import os
-import sys
-import time
-from csv import excel
 import numpy
 import numpy as np
 import pandas as pd
 
 excel_datei = pd.read_excel("files/Fragen.xlsx")
 
-print("_______________________________________________________________________________ ")
-print("Standartabweichung ist: ", np.std(excel_datei.iloc[:,17]))
+print(excel_datei.iloc[20,11])
+
+
 print("_______________________________________________________________________________ ")
 print("Frage 1: \n Wo warst du um die Uhrzeit? \n Antwort:")
 print("_______________________________________________________________________________ ")
@@ -212,4 +209,5 @@ print("Frage 99: \n  \n Antwort:")
 print("_______________________________________________________________________________ ")
 print("Frage 100: \n  \n Antwort:")
 print("_______________________________________________________________________________ ")
-
+print("Standartabweichung ist: ", np.std(excel_datei.iloc[:,17]))
+print("_______________________________________________________________________________ ")
