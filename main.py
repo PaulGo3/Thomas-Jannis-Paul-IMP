@@ -5,13 +5,13 @@ import pandas as pd
 
 excel_datei = pd.read_excel("files/Fragen.xlsx")
 
-print(excel_datei.iloc[20,11])
+excel_datei.iloc[5,11]
 
 
 print("_______________________________________________________________________________ ")
-print("Frage 1: \n Wo warst du um die Uhrzeit? \n Antwort:")
+print("Frage 1: \n ",excel_datei.iloc[5,11]," \n Antwort:")
 print("_______________________________________________________________________________ ")
-print("Frage 2: \n Hast du ein Alibi? \n Antwort:")
+print("Frage 2: \n ",excel_datei.iloc[6,11]," \n Antwort:")
 print("_______________________________________________________________________________ ")
 print("Frage 3: \n Bist du das auf den Kameraaufnahmen? \n Antwort:")
 print("_______________________________________________________________________________ ")
