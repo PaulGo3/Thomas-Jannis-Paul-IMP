@@ -5,8 +5,6 @@ import pandas as pd
 
 excel_datei = pd.read_excel("files/Fragen.xlsx")
 
-excel_datei.iloc[5,11]
-
 
 print("_______________________________________________________________________________ ")
 print("Frage 1: \n ",excel_datei.iloc[5,11]," \n Antwort:",excel_datei.iloc[5,9])
