@@ -1,9 +1,16 @@
-#https://github.com/MarcIMP08/Luegendetektor/blob/master/main.py
+#credits: https://github.com/MarcIMP08/Luegendetektor/blob/master/main.py
 import numpy
 import numpy as np
 import pandas as pd
 
+
+
 excel_datei = pd.read_excel("files/Fragen.xlsx")
+
+Geschichte = ""
+
+
+
 print(
   "___________________________________________________________________________________________________________________________________________ \n"
 )
@@ -37,6 +44,8 @@ print("""
 print(
   "___________________________________________________________________________________________________________________________________________ \n"
 )
+
+print("Geschichte: ")
 print("""
   ______                               
  |  ____|                              
