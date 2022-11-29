@@ -45,7 +45,19 @@ print(
   "___________________________________________________________________________________________________________________________________________ \n"
 )
 
-print("Geschichte: ")
+print("""Geschichte: 
+
+Die Geiselnahme von Heilbronn 
+
+Die beiden anonymen Haupttäter, die beide eine schwarze Jeanshose und ein blaues T-Shirt getragen haben, überfielen am 16. August 1988 um 8:00 morgens eines Regentages die in einem Einkaufszentrum des Heilbronner Stadtteils „Frankenbach“ befindliche Filiale der Deutschen Bank. Daraufhin überfahlen sie noch eine Filiale der Sparkasse. Die Freundin des Täters und eine Freundin von ihr schlossen sich am Abend desselben Tages den Tätern an. Auf ihrer Flucht nahmen sie mehrmals Geiseln und fuhren um 10:25 Uhr mit ihnen durch das südöstliche Deutschland sowie nach Österreich, wo die Sonne schien. Nach einem Aufenthalt in der Münchner Innenstadt konnten die vier Geiselnehmer um 15:45 Uhr am 18. August 1988 bei dem Zugriff des SEK flüchten. 
+
+Während der Flucht in einem entführten Linienbus erschoss, ein Täter den 14-jährigen Italiener Emanuele um 18:00 Uhr. Auf der Fahrt zum Tatort kam der 31-jährige Polizist Ingo Hagen in Augsburg bei einem Verkehrsunfall ums Leben. Während der abschließenden Polizeiaktion auf der Autobahn wurde eine weitere Geisel, die 18-jährige Silke Bischoff, um 19:50 Uhr tödlich getroffen. Die forensische Untersuchung ergab, dass das Projektil aus einer fremden Waffe stammte. 
+
+Das Verhalten der Journalisten, die durch ihre große Nähe zum Geschehen die Arbeit der Polizei behinderten, entfachte später eine intensive öffentliche Debatte. Unter anderem wurden mit den Tätern um 17:15 Uhr mehrere Interviews geführt, bei denen sie sehr müde schienen. Eine Frage davon war was passiert, wenn er erwischt wird und er meinte: “Die letzte Kugel ist die in meinem Kopf.”  
+
+während des Interviews mit einem Mittäter hörte man einen starken bayerischen Akzent raus. Ein Pressefotograf fungierte als Verbindungsmann zur Polizei und ein Münchner Journalist fuhr im Fluchtauto mit, um den Tätern den Weg aus der Innenstadt zu zeigen. In der Mediensystemforschung ist die Heilbronner Geiselnahme ein wichtiger Untersuchungsgegenstand. 
+
+Die Polizei hat 3 Hauptverdächtige im Revier und verhört einen von ihnen... """)
 print("""
   ______                               
  |  ____|                              
