@@ -7,8 +7,6 @@ import pandas as pd
 
 excel_datei = pd.read_excel("files/Fragen.xlsx")
 
-Geschichte = ""
-
 
 
 print(
