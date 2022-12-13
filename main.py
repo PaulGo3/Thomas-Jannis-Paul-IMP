@@ -570,15 +570,33 @@ print("Frage 100: \n ", excel_datei.iloc[104, 11], " \n Antwort:",
 print(
   "___________________________________________________________________________________________________________________________________________ \n"
 )
-print("Standartabweichung des Herzschlags ist: ",
-      np.std(excel_datei.iloc[:, 17]))
+
+std = np.std(excel_datei.iloc[:, 17])
+
+print("Standartabweichung des Herzschlags ist: ",std)
 print(
   "___________________________________________________________________________________________________________________________________________ \n"
 )
+
 print(
   "Die Standartabweichung sagt uns dass er lügt und dass er der Täter war"
+
 )
+
+if std >= 3:
+    print("Er sagt zu 0,2% die Wahrheit. Also lügt er")
+elif std >= 2 and std < 3:
+    print("Er sagt zu 4,2% die Wahrheit. Also lügt er")
+elif std >= 1 and std < 2:
+    print("Er sagt zu 27,2% die Wahrheit. Also lügt er")
+elif std >= 0 and std < 1:
+    print("Er sagt zu 68,2% die Wahrheit. Also sagt er vielleicht die Wahrheit")
+elif std == 0:
+    print("Er sagt zu 100% die wahrheit")
+
+
 print(
   "___________________________________________________________________________________________________________________________________________ \n"
 )
 print(input("Drücke eine beliebige Taste um das Programm zu beenden"))
+
